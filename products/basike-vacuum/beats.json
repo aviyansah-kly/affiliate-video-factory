@@ -1,0 +1,66 @@
+{
+  "canvas": { "width": 1080, "height": 1920, "fps": 30 },
+  "targetDurationSec": 22,
+  "beats": [
+    {
+      "id": "B1",
+      "job": "recognition",
+      "fromCue": "Debu",
+      "toCue": "Ini",
+      "hero": "problem-macro",
+      "register": "drawn",
+      "framing": "macro-full",
+      "zones": { "media": "full", "type": "top-left", "character": "none" }
+    },
+    {
+      "id": "B2",
+      "job": "product-reveal",
+      "fromCue": "Ini",
+      "toCue": "listing-nya",
+      "hero": "real-product-asset",
+      "register": "real-asset",
+      "framing": "hero-diagonal",
+      "zones": { "media": "center", "type": "bottom-left", "character": "none" }
+    },
+    {
+      "id": "B3",
+      "job": "claim-reveal",
+      "fromCue": "listing-nya",
+      "toCue": "bisa",
+      "hero": "9000Pa",
+      "register": "drawn",
+      "framing": "giant-number",
+      "zones": { "media": "bottom-right", "type": "center", "character": "none" }
+    },
+    {
+      "id": "B4",
+      "job": "use-case",
+      "fromCue": "bisa",
+      "toCue": "Harganya",
+      "hero": "home-car-split",
+      "register": "drawn",
+      "framing": "split-screen",
+      "zones": { "media": "full", "type": "bottom-strip", "character": "none" }
+    },
+    {
+      "id": "B5",
+      "job": "value",
+      "fromCue": "Harganya",
+      "toCue": "Kalau",
+      "hero": "Rp98.000",
+      "register": "drawn",
+      "framing": "price-poster",
+      "zones": { "media": "none", "type": "full", "character": "none" }
+    },
+    {
+      "id": "B6",
+      "job": "close",
+      "fromCue": "Kalau",
+      "toCue": "end",
+      "hero": "real-product-asset",
+      "register": "real-asset",
+      "framing": "product-small-left",
+      "zones": { "media": "left", "type": "right", "character": "none" }
+    }
+  ]
+}
