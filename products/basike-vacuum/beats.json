@@ -1,6 +1,17 @@
 {
   "canvas": { "width": 1080, "height": 1920, "fps": 30 },
-  "targetDurationSec": 22,
+  "targetDurationSec": 24,
+  "visualDirection": {
+    "style": "editorial-product-story",
+    "rules": [
+      "viewer problem before product",
+      "one hero visual per beat",
+      "real product assets for product identity",
+      "large typography used as narrative, not marketplace UI",
+      "no repeated framing on consecutive beats",
+      "no generic gradient cards or floating promo badges"
+    ]
+  },
   "beats": [
     {
       "id": "B1",
@@ -10,7 +21,8 @@
       "hero": "problem-macro",
       "register": "drawn",
       "framing": "macro-full",
-      "zones": { "media": "full", "type": "top-left", "character": "none" }
+      "zones": { "media": "full", "type": "top-left", "character": "none" },
+      "visual": "abstract keyboard grid + dust particles; fast editorial reveal; no fake cleaning demo"
     },
     {
       "id": "B2",
@@ -20,37 +32,43 @@
       "hero": "real-product-asset",
       "register": "real-asset",
       "framing": "hero-diagonal",
-      "zones": { "media": "center", "type": "bottom-left", "character": "none" }
+      "zones": { "media": "center", "type": "bottom-left", "character": "none" },
+      "asset": "assets/product-hero.png",
+      "visual": "large cutout/product image enters with controlled parallax; no product-card container"
     },
     {
       "id": "B3",
       "job": "claim-reveal",
       "fromCue": "listing-nya",
-      "toCue": "bisa",
+      "toCue": "Bisa",
       "hero": "9000Pa",
       "register": "drawn",
       "framing": "giant-number",
-      "zones": { "media": "bottom-right", "type": "center", "character": "none" }
+      "zones": { "media": "right", "type": "left", "character": "none" },
+      "visual": "9000Pa dominates frame; small source label says 'klaim pada listing'"
     },
     {
       "id": "B4",
       "job": "use-case",
-      "fromCue": "bisa",
+      "fromCue": "Bisa",
       "toCue": "Harganya",
-      "hero": "home-car-split",
-      "register": "drawn",
-      "framing": "split-screen",
-      "zones": { "media": "full", "type": "bottom-strip", "character": "none" }
+      "hero": "home-car-use-case",
+      "register": "real-asset",
+      "framing": "diagonal-split",
+      "zones": { "media": "full", "type": "top", "character": "hand" },
+      "assets": ["assets/ergonomic.png", "assets/internal.png"],
+      "visual": "use-case montage using supplied product imagery; no invented performance result"
     },
     {
       "id": "B5",
       "job": "value",
       "fromCue": "Harganya",
       "toCue": "Kalau",
-      "hero": "Rp98.000",
+      "hero": "Rp98 ribuan",
       "register": "drawn",
       "framing": "price-poster",
-      "zones": { "media": "none", "type": "full", "character": "none" }
+      "zones": { "media": "none", "type": "center", "character": "none" },
+      "visual": "editorial price moment, not a Shopee-style promo card; small timestamp caveat"
     },
     {
       "id": "B6",
@@ -59,8 +77,10 @@
       "toCue": "end",
       "hero": "real-product-asset",
       "register": "real-asset",
-      "framing": "product-small-left",
-      "zones": { "media": "left", "type": "right", "character": "none" }
+      "framing": "low-product-close",
+      "zones": { "media": "right", "type": "left", "character": "none" },
+      "asset": "assets/product-hero.png",
+      "visual": "quiet close; one CTA only: check specifications and reviews"
     }
   ]
 }
