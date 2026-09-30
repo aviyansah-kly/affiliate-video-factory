@@ -1,0 +1,16 @@
+{
+  "name": "affiliate-video-factory",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "lint:basike": "node src/lint.mjs products/basike-vacuum",
+    "preview": "npx hyperframes preview",
+    "check": "npx hyperframes check",
+    "render": "npx hyperframes render"
+  },
+  "dependencies": {
+    "gsap": "^3.13.0"
+  }
+}
