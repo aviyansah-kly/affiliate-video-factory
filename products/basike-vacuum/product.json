@@ -1,0 +1,36 @@
+{
+  "id": "basike-vacuum",
+  "brand": "BASIKE",
+  "name": "Penyedot Debu Genggam Nirkabel",
+  "sourceUrl": "https://s.shopee.co.id/4B0LymIHVA?share_channel_code=1",
+  "observed": {
+    "priceIdr": 98000,
+    "rating": 4.7
+  },
+  "claims": [
+    {
+      "label": "9000Pa",
+      "meaning": "kekuatan hisap",
+      "source": "listing",
+      "status": "unverified"
+    },
+    {
+      "label": "120W",
+      "meaning": "claim shown in listing artwork",
+      "source": "listing",
+      "status": "unverified"
+    },
+    {
+      "label": "Rumah + mobil",
+      "meaning": "use cases shown in listing artwork",
+      "source": "listing",
+      "status": "unverified"
+    }
+  ],
+  "affiliate": {
+    "commissionRate": null,
+    "commissionXtra": null,
+    "status": "needs-dashboard-screenshot"
+  },
+  "mode": "zero-budget"
+}
